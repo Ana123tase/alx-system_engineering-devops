@@ -1,0 +1,2 @@
+#!/bin/bas
+echo "input" | sed 'S/[cC]//g'

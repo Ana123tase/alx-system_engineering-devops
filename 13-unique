@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "input words" sort tr uniq -u
