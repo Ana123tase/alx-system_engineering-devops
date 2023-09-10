@@ -1,2 +1,0 @@
-#!/bin/bash
-echo "inpu" | sed 'S/A/Z/g; s/C/e/g'

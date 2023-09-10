@@ -1,2 +1,0 @@
-#!/bin/bash
-awk'{ printif"%S" ,subtr($0,1);printif"\n"}'
