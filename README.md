@@ -1,1 +1,1 @@
-My redirects
+My redirects are awesome!
