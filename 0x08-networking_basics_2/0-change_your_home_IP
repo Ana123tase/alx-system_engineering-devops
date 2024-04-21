@@ -3,5 +3,5 @@
 sudo cp /etc/hosts /etc/hosts.bak
 
 # Modify the hosts file to set localhost to 127.0.0.2 and facebook.com to 8.8.8.8
-sudo sed -i 's/^127.0.0.1.*localhost/127.0.0.2 localhost/' /etc/hosts
-sudo sed -i 's/^.*facebook.com/8.8.8.8 facebook.com/' /etc/hosts
+echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts
+echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts
