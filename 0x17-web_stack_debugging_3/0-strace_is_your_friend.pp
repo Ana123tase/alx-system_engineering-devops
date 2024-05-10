@@ -1,6 +1,6 @@
-file { '/path/to/affected/file':
-  owner   => 'www-data',
-  group   => 'www-data',
-  mode    => '0644',
-  require => Package['apache2'], # Assuming Apache package name is apache2
+$file_to_edit = '/var/www/html/wp-settings.php'
+
+exec { 'replace_line':
+  command => "sed -i 's/phpp/php/g' ${file_to_edit}",
+  path    => ['/bin','/usr/bin']
 }
