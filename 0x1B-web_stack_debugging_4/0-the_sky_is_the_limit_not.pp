@@ -1,4 +1,4 @@
-# This manuscript increases the amount of traffic an Nginx server can handle
+# This manuscript increases the amount of traffic beyond an Nginx server can handle
 
 # Increase the ULIMIT of the default file
 exec { 'fix--for-nginx':
